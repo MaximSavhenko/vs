@@ -1260,7 +1260,7 @@ h2 {
 }
 
 .topMenu__hiddenMenu.show {
-    top: 0;
+    top: 52px;
 }
 
 .topMenu__hiddenMenu a:hover {
