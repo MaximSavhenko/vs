@@ -195,11 +195,11 @@ h2 {
 }
 
 .container--page {
-    max-width: 1643px;
+    max-width: 1644px;
 }
 
 .container--comments_slider {
-    max-width: 1190px;
+    max-width: 1339px;
 }
 
 .wrapper {
@@ -509,13 +509,6 @@ textarea:focus {
     -webkit-transform: rotate(-230deg);
     transform: rotate(-230deg);
     top: 7px;
-}
-
-h2 {
-    font-size: 24px;
-    color: #303030;
-    text-transform: uppercase;
-    margin-bottom: 24px;
 }
 
 .full-width-text {
@@ -1227,7 +1220,7 @@ h2 {
     max-height: 100vh;
     top: -100%;
     background: rgba(255, 255, 255, 0.9);
-    transition: all 0.2s;
+    transition: all 0.2s linear;
     overflow: auto;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -1260,7 +1253,7 @@ h2 {
 }
 
 .topMenu__hiddenMenu.show {
-    top: 52px;
+    top: 53px;
 }
 
 .topMenu__hiddenMenu a:hover {
@@ -3371,7 +3364,7 @@ h2 {
     background-color: #fff;
     border: none;
     font-weight: 300;
-    padding: 40px 0;
+    padding: 26px 0;
 }
 
 .product__previews-comments-name {
@@ -3748,6 +3741,14 @@ h2 {
     margin-bottom: 190px;
 }
 
+.home h2 {
+    font-size: 24px;
+    color: #303030;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
 @media (max-width: 768px) {
     .home {
         padding-top: 7px;
@@ -3779,7 +3780,7 @@ h2 {
 }
 
 .home__welcome {
-    margin-bottom: 120px;
+    margin-bottom: 108px;
 }
 
 @media (max-width: 768px) {
@@ -3792,7 +3793,7 @@ h2 {
     font-size: 18px;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .home__welcome-descr {
@@ -3802,7 +3803,7 @@ h2 {
 }
 
 .home__new-items {
-    margin-bottom: 120px;
+    margin-bottom: 109px;
 }
 
 @media (max-width: 768px) {
@@ -3842,7 +3843,7 @@ h2 {
 
 .home__link-btn {
     max-width: 291px;
-    margin: 32px auto 0;
+    margin: 40px auto 0;
 }
 
 .home__link-btn--otherWidth {
@@ -3851,7 +3852,7 @@ h2 {
 }
 
 .home__sale {
-    margin-bottom: 120px;
+    margin-bottom: 109px;
 }
 
 @media (max-width: 768px) {
@@ -3867,7 +3868,7 @@ h2 {
 }
 
 .home__promo {
-    margin-bottom: 120px;
+    margin-bottom: 105px;
 }
 
 @media (max-width: 768px) {
@@ -4094,6 +4095,13 @@ h2 {
     }
 }
 
+@media (max-width: 434px) {
+    .home__instashop-hover-link {
+        font-size: 8px;
+        padding-top: 11px;
+    }
+}
+
 .home__instashop-hover-btn {
     max-width: 228px;
 }
@@ -4127,19 +4135,17 @@ h2 {
     }
 }
 
+.home__comments h2 {
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
 .home__comments-wrapp {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-}
-
-.home__comments-caption {
-    font-size: 24px;
-    line-height: 30px;
-    color: #303030;
-    text-transform: uppercase;
 }
 
 .home__comments-slider {
